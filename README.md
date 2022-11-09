@@ -1,4 +1,7 @@
-Задача:
+<div id="header" align="center">
+Данный сервис рреализует следующую задачу:
+</div>
+
 <p align="justify">
 Нужно сделать HTTP сервис для одноразовых секретов наподобие https://onetimesecret.com/.
 
