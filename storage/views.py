@@ -33,5 +33,6 @@ class StorageAPIView(views.APIView):
             return Response({"error": "code not pass"}, status=status.HTTP_404_NOT_FOUND)
 
         serial_storage = StorageSerializer(storage)
+        storage.delete()
 
         return Response({'storage': serial_storage.data['storage_content']})
